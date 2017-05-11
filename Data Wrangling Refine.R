@@ -1,7 +1,6 @@
 install.packages("dplyr")
 library(dplyr)
 #0 Read CSV file
-
 refine <- read.csv("C:\\Nilanjana\\Springboard\\refine_original.csv", header =  TRUE)
 
 #1 standardize company name
